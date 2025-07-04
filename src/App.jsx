@@ -4,8 +4,8 @@ import FeatureBox from "./components/FeatureBox";
 import { DotLottieReact } from '@lottiefiles/dotlottie-react';
 import { motion } from "framer-motion";
 import PriceCard1 from "./components/pricecard";
-import PriceCard2 from "./components/PRICECARD2.JSX";
-import PriceCard3 from "./components/pricecard3.JSX";
+import PriceCard2 from "./components/pricecard2";
+import PriceCard3 from "./components/pricecard3";
 import FaqContainer from "./components/faq";
 import ScrollLinked from "./components/scroll";
 
