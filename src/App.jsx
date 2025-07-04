@@ -37,14 +37,14 @@ function App() {
   <motion.div className="flex flex-col items-center sm:gap-8 gap-4 text-center z-10 font-first mt-30 px-10 opacity-0"transition= {{
             duration:2
         }} whileInView={{ opacity: 1 }}>
-    <h1 className="md:text-6xl md:px-60 lg:text-7xl lg:px-30 h-fit sm:text-5xl sm:px-70 px-95 text-4xl font-medium">Empower Your Future with Cutting-Edge AI</h1>
+    <h1 className="md:text-6xl md:px-60 lg:text-7xl lg:px-30 h-fit sm:text-5xl sm:px-70 px-110 text-3xl font-medium">Empower Your Future with Cutting-Edge AI</h1>
 
-  <p className="text-md px-100 sm:text-2xl sm:px-70  md:px-20 text-gray-300">Unlock the power of artificial intelligence to streamline your workflows, boost productivity, and drive innovation with our scalable SaaS platform.</p>
+  <p className="text-md px-110 sm:text-2xl sm:px-70  md:px-20 text-gray-300">Unlock the power of artificial intelligence to streamline your workflows, boost productivity, and drive innovation with our scalable SaaS platform.</p>
   <Button btntext="Get Started"></Button>
   
    
-    <div className=" mt-10 sm:py-3 py-1 sm:px-10 px-5 flex sm:gap-20 gap-6 inset-shadow-sm inset-shadow-indigo-500/50 rounded-4xl justify-around items-center relative w-fit">
-     <p className="absolute -top-7 text-gray-400">Trusted by well established Companies </p>
+    <div className=" mt-10 sm:py-3 py-3 sm:px-10 px-5 flex sm:gap-20 gap-6 scale-75 sm:scale-100 inset-shadow-sm inset-shadow-indigo-500/50 rounded-4xl justify-around items-center relative w-fit">
+     <p className="absolute -top-10 text-gray-400">Trusted by well established Companies </p>
       <span className="px-4" ><img className="lg:w-4 sm:w-3 w-3" src="/X.png"></img></span>
        <span ><img className="sm:w-20 w-15" src="/nvidia.png"></img></span>
         <span ><img className="sm:w-20 w-15" src="/meta.png"></img></span>
@@ -52,12 +52,12 @@ function App() {
           <span ><img className="sm:w-20 w-15 mr-2" src="/zerodha.png"></img></span>
    
      </div>
-      <div className="w-300 h-150 scale-75 lg:scale-100  bg-cover bg-top shadow-xl/60 shadow-gray-700 opacity-60 rounded-3xl -top-15 relative " style={{backgroundImage:`url(/backdrop.png`}}>
+      <div className="w-300 h-150 scale-60 lg:scale-100  bg-cover bg-center sm:bg-top shadow-xl/60 shadow-gray-700 opacity-60 rounded-3xl -top-15 relative " style={{backgroundImage:`url(/backdrop.png`}}>
      </div>
     
-     <div id="features" className="  flex flex-col sm:gap-5 gap-2 font-first rounded-4xl relative -top-5">
-      <h1 className="text-xl sm:text-3xl  font-first text-gray-300">Features That Transform Your Workflow</h1>
-      <p className="sm:text-2xl px-100 sm:px-0 text-md text-gray-500">Discover how our AI-powered SaaS platform empowers your team to achieve more with intelligent automation, actionable insights, and seamless scalability.</p>
+     <div id="features" className="  flex flex-col sm:gap-5 gap-4 font-first rounded-4xl relative sm:-top-5 -top-20">
+      <h1 className="text-lg sm:text-3xl  font-first text-gray-300">Features That Transform Your Workflow</h1>
+      <p className="sm:text-2xl px-110 sm:px-0 text-base  text-gray-500">Discover how our AI-powered SaaS platform empowers your team to achieve more with intelligent automation, actionable insights, and seamless scalability.</p>
      </div>
   
   
@@ -83,7 +83,7 @@ function App() {
         <PriceCard2></PriceCard2>
         <PriceCard3></PriceCard3>
   </div>
-  <div id="faq" className="w-full sm:h-100 flex flex-col sm:flex-row sm:gap-5  justify-center items-center px-40 sm:px-10 my-30 " >
+  <div id="faq" className="w-full sm:h-100 flex flex-col sm:flex-row sm:gap-5  justify-center items-center px-40 sm:px-10 my-10 " >
   <motion.div className="w-150 h-100  z-20 bg-cover bg-center opacity-50  " style={{backgroundImage: "url(/faqimg.png)" }} whileHover={{scale:1.05}}></motion.div>
   <div className="w-200 h-120  text-center sm:mt-30 mt-20 relative"> <FaqContainer></FaqContainer></div>
   </div>

@@ -36,14 +36,14 @@ const FaqContainer = () => {
         <motion.div className="w-full h-full p-6 z-30 relative -top-12 opacity-0" transition= {{
             duration:2
         }} whileInView={{ opacity: 1 }}>
-            <h1 className="text-3xl font-bold text-white">Frequently Asked Questions</h1>
+            <h1 className="text-2xl  sm:text-3xl font-bold text-white">Frequently Asked Questions</h1>
             <div className="w-full h-fit flex flex-col gap-2 justify-center items-center text-start mt-5"
             >
               {faqs.map((faq, index)=>{
-               return ( <div key= {index} className=" w-full h-fit border-b border-gray-600 font-first py-2 px-40  sm:px-0" 
+               return ( <div key= {index} className=" w-full h-fit border-b border-gray-600 font-first py-2 px-50  sm:px-0" 
                onClick={()=>setVal(val===index ? null: index)}> 
                     <h3 className=" text-md sm:text-2xl font-medium px-6 py-2 text-gray-400">{faq.question}<span> {val===index ?"": "+"} </span></h3>
-                    {val===index && (<motion.p className="px-4 py-3 text-base sm:text-md "  initial={{ y: -30, opacity: 0 }}
+                    {val===index && (<motion.p className="px-4 py-3 text-sm sm:text-md "  initial={{ y: -30, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }} 
                 transition={{ duration: 0.5 }}>{faq.answer}</motion.p>)}
                 </div>

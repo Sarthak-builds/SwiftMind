@@ -4,7 +4,7 @@ import {motion} from "motion/react";
  function PriceCard1 () {
 
     return (
-        <motion.div className="scale-90 overflow-hidden w-85 h-150  rounded-3xl shadow-lg ring-1 ring-indigo-600 bg-cover bg-center z-20 relative p-5 flex flex-col justify-between  top-8 opacity-0" whileHover= {{scale:1.05}} 
+        <motion.div className="scale-85 overflow-hidden w-85 h-150  rounded-3xl shadow-lg ring-1 ring-indigo-600 bg-cover bg-center z-20 relative p-5 flex flex-col justify-between  top-8 opacity-0" whileHover= {{scale:1.05}} 
         transition= {{
             duration:0.5
         }} 
