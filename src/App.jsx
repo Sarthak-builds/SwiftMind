@@ -83,8 +83,8 @@ function App() {
         <PriceCard2></PriceCard2>
         <PriceCard3></PriceCard3>
   </div>
-  <div id="faq" className="w-full sm:h-100 flex flex-col sm:flex-row sm:gap-5  justify-center items-center px-40 sm:px-10 my-30 ">
-  <div className="w-150 h-100  z-20 bg-cover bg-center opacity-50  " style={{backgroundImage: "url(/src/assets/faqimg.png)"}}></div>
+  <div id="faq" className="w-full sm:h-100 flex flex-col sm:flex-row sm:gap-5  justify-center items-center px-40 sm:px-10 my-30 " >
+  <motion.div className="w-150 h-100  z-20 bg-cover bg-center opacity-50  " style={{backgroundImage: "url(/src/assets/faqimg.png)" }} whileHover={{scale:1.05}}></motion.div>
   <div className="w-200 h-120  text-center sm:mt-30 mt-20 relative"> <FaqContainer></FaqContainer></div>
   </div>
 
