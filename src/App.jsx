@@ -45,14 +45,14 @@ function App() {
    
     <div className=" mt-10 sm:py-3 py-1 sm:px-10 px-5 flex sm:gap-20 gap-6 inset-shadow-sm inset-shadow-indigo-500/50 rounded-4xl justify-around items-center relative w-fit">
      <p className="absolute -top-7 text-gray-400">Trusted by well established Companies </p>
-      <span className="px-4" ><img className="lg:w-4 sm:w-3 w-3" src="src/assets/X.png"></img></span>
-       <span ><img className="sm:w-20 w-15" src="src/assets/nvidia.png"></img></span>
-        <span ><img className="sm:w-20 w-15" src="src/assets/meta.png"></img></span>
-         <span ><img className="sm:w-20 w-15" src="src/assets/reddit.png"></img></span>
-          <span ><img className="sm:w-20 w-15 mr-2" src="src/assets/zerodha.png"></img></span>
+      <span className="px-4" ><img className="lg:w-4 sm:w-3 w-3" src="/X.png"></img></span>
+       <span ><img className="sm:w-20 w-15" src="/nvidia.png"></img></span>
+        <span ><img className="sm:w-20 w-15" src="/meta.png"></img></span>
+         <span ><img className="sm:w-20 w-15" src="/reddit.png"></img></span>
+          <span ><img className="sm:w-20 w-15 mr-2" src="/zerodha.png"></img></span>
    
      </div>
-      <div className="w-300 h-150 scale-75 lg:scale-100  bg-cover bg-top shadow-xl/60 shadow-gray-700 opacity-60 rounded-3xl -top-15 relative " style={{backgroundImage:`url(/src/assets/backdrop.png`}}>
+      <div className="w-300 h-150 scale-75 lg:scale-100  bg-cover bg-top shadow-xl/60 shadow-gray-700 opacity-60 rounded-3xl -top-15 relative " style={{backgroundImage:`url(/backdrop.png`}}>
      </div>
     
      <div id="features" className="  flex flex-col sm:gap-5 gap-2 font-first rounded-4xl relative -top-5">
@@ -84,7 +84,7 @@ function App() {
         <PriceCard3></PriceCard3>
   </div>
   <div id="faq" className="w-full sm:h-100 flex flex-col sm:flex-row sm:gap-5  justify-center items-center px-40 sm:px-10 my-30 " >
-  <motion.div className="w-150 h-100  z-20 bg-cover bg-center opacity-50  " style={{backgroundImage: "url(/src/assets/faqimg.png)" }} whileHover={{scale:1.05}}></motion.div>
+  <motion.div className="w-150 h-100  z-20 bg-cover bg-center opacity-50  " style={{backgroundImage: "url(/faqimg.png)" }} whileHover={{scale:1.05}}></motion.div>
   <div className="w-200 h-120  text-center sm:mt-30 mt-20 relative"> <FaqContainer></FaqContainer></div>
   </div>
 

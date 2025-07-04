@@ -11,7 +11,7 @@ import {motion} from "motion/react";
         whileInView={{ opacity: 1 }} 
         
         >
-           <div  style={{backgroundImage:"url(/src/assets/priceimg.jpg)"}} className="w-full h-50 bg-cover bg-center rounded-3xl opacity-30 absolute top-0 left-0">
+           <div  style={{backgroundImage:"url(/priceimg.jpg)"}} className="w-full h-50 bg-cover bg-center rounded-3xl opacity-30 absolute top-0 left-0">
            </div> 
 
             <div className="flex flex-col gap-1 z-30 px-2 mt-2 text-gray-100">

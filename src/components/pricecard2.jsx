@@ -6,7 +6,7 @@
         <motion.div className="scale-90 overflow-hidden w-85 h-150 rounded-3xl shadow-lg ring-1 ring-indigo-600 bg-cover bg-center z-20 relative p-5 flex flex-col justify-between opacity-0"whileHover= {{scale:1.05}} transition= {{
             duration:0.5
         }}  whileInView={{ opacity: 1 }}>
-           <div  style={{backgroundImage:"url(/src/assets/priceimg.jpg)"}} className="w-full h-50 bg-cover bg-center rounded-3xl opacity-30 absolute top-0 left-0">
+           <div  style={{backgroundImage:"url(/priceimg.jpg)"}} className="w-full h-50 bg-cover bg-center rounded-3xl opacity-30 absolute top-0 left-0">
            </div> 
 
             <div className="flex flex-col gap-1 z-30 px-2 mt-2 text-gray-100">
